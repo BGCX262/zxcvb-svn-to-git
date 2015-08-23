@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Log4XConfig xmlns="http://www.nhncorp.com/xgp/Log4XConfig.xsd">
+	<Log4X ServiceName="ServiceDBProxy"/>
+
+	<!-- Logger information -->
+	<Loggers>
+		<Logger Name="Error" LogLevel="ALL"/>
+		<Logger Name="Process" LogLevel="ALL"/>
+		<Logger Name="Debug" LogLevel="ALL"/>
+	</Loggers>
+
+	<!-- Appender information -->
+	<Appenders>
+		<Appender Name="ErrorFileAppender" Type="Log4XBasic.DailyRollingFileAppender">
+			<AppenderParameter Name="LoggingDirectory" Value=".\log"/>
+			<AppenderParameter Name="Schedule" Value="Hourly"/>
+			<AppenderParameter Name="FileNamePrefix" Value="SDP_ERROR_"/>
+			<AppenderParameter Name="FileNamePostfix" Value=".log" />
+			<AppenderParameter Name="ImmediateFlush" Value="true" />
+			<AppenderParameter Name="Append" Value="true" />
+		</Appender>
+		<Appender Name="ProcessFileAppender" Type="Log4XBasic.DailyRollingFileAppender">
+			<AppenderParameter Name="LoggingDirectory" Value=".\log"/>
+			<AppenderParameter Name="Schedule" Value="Hourly"/>
+			<AppenderParameter Name="FileNamePrefix" Value="SDP_PROCESS_"/>
+			<AppenderParameter Name="FileNamePostfix" Value=".log" />
+			<AppenderParameter Name="ImmediateFlush" Value="true" />
+			<AppenderParameter Name="Append" Value="true" />
+		</Appender>
+		<Appender Name="DebugFileAppender" Type="Log4XBasic.DailyRollingFileAppender">
+			<AppenderParameter Name="LoggingDirectory" Value=".\log"/>
+			<AppenderParameter Name="Schedule" Value="Hourly"/>
+			<AppenderParameter Name="FileNamePrefix" Value="SDP_DEBUG_"/>
+			<AppenderParameter Name="FileNamePostfix" Value=".log" />
+			<AppenderParameter Name="ImmediateFlush" Value="true" />
+			<AppenderParameter Name="Append" Value="true" />
+		</Appender>
+		<Appender Name="ConsoleAppender" Type="Log4XBasic.ConsoleAppender"/>
+	</Appenders>
+
+	<!-- Layout information -->
+	<Layouts>
+		<Layout Name="Simple Layout" Type="Log4XBasic.SimpleLayout"/>
+	</Layouts>
+
+	<!-- Logger binding information -->
+	<LoggerBindings>
+		<LoggerBinding LoggerRef="Error">
+			<AppenderRef Name="ErrorFileAppender"/>
+			<AppenderRef Name="ConsoleAppender"/>
+		</LoggerBinding>
+		<LoggerBinding LoggerRef="Process">
+			<AppenderRef Name="ProcessFileAppender"/>
+			<AppenderRef Name="ConsoleAppender"/>
+		</LoggerBinding>
+		<LoggerBinding LoggerRef="Debug">
+			<AppenderRef Name="DebugFileAppender"/>
+			<AppenderRef Name="ConsoleAppender"/>
+		</LoggerBinding>
+	</LoggerBindings>
+
+	<!-- Appender binding information -->
+	<AppenderBindings>
+		<AppenderBinding AppenderRef="ErrorFileAppender">
+			<LayoutRef Name="Simple Layout"/>
+		</AppenderBinding>
+		<AppenderBinding AppenderRef="ProcessFileAppender">
+			<LayoutRef Name="Simple Layout"/>
+		</AppenderBinding>
+		<AppenderBinding AppenderRef="DebugFileAppender">
+			<LayoutRef Name="Simple Layout"/>
+		</AppenderBinding>
+		<AppenderBinding AppenderRef="ConsoleAppender">
+			<LayoutRef Name="Simple Layout"/>
+		</AppenderBinding>
+	</AppenderBindings>
+</Log4XConfig>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GOProject>
+    <Setting>
+        <Run TotalClients="0" />
+        <Debug Mode="Server" TotalClients="1" TargetClient="1" />
+    </Setting>
+    <Open />
+    <LastOpen Name="" />
+    <Debug />
+</GOProject>

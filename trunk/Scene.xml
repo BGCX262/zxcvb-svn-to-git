@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Resource title="untitled" author="GameOVEN">
+    <CursorList />
+    <SceneList>
+        <ObjectColor>
+            <Type name="Scene" color="FF000000" />
+            <Type name="StaticImage" color="FFD2B48C" />
+            <Type name="Text" color="FFDDA0DD" />
+            <Type name="ImageNumber" color="FFDD0000" />
+            <Type name="Group" color="FFFFFF00" />
+            <Type name="Image" color="FFE9967A" />
+            <Type name="Button" color="FFF08080" />
+            <Type name="CheckBox" color="FFCD5C5C" />
+            <Type name="RadioButton" color="FFFFA07A" />
+            <Type name="Edit" color="FFDB7093" />
+            <Type name="ListView" color="FFF4A460" />
+            <Type name="TextList" color="FFF40060" />
+            <Type name="HorzScrollBar" color="FFFA8072" />
+            <Type name="VertScrollBar" color="FFFA8072" />
+            <Type name="HorzProgressBar" color="FFFF6347" />
+            <Type name="VertProgressBar" color="FFFF6347" />
+            <Type name="HorzSlideBar" color="FFAF2307" />
+            <Type name="VertSlideBar" color="FFAF2307" />
+            <Type name="ComboBox" color="FFFF4500" />
+            <Type name="WebImage" color="FF7B68EE" />
+            <Type name="Hgs" color="FFF0E68C" />
+            <Type name="Hsv" color="FFCD853F" />
+            <Type name="Hef" color="FF10AO30" />
+        </ObjectColor>
+        <Scene id="1" name="Scene1" cursor="-1" classname="uppuRacingScene">
+            <Object type="Text" id="2" name="carpos" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="3.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="3" name="rtt1" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="27.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="4" name="rtt2" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="51.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="20" name="NowLoading" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="119.000000" y="167.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.600000" g="0.800000" b="0.000000" a="1.000000" />
+                <Font face="Cooper Black" bold="false" height="70.000000" />
+                <Text string="Now Loading..." align="Left" />
+            </Object>
+            <Object type="Text" id="21" name="trafficSent" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="849.000000" y="3.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.000000" b="0.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="22" name="rtt3" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="74.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="23" name="rtt4" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="97.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="24" name="rankNumber" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="806.000000" y="118.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="27" height="32" />
+                <Image name="images\ido_up_tx_005.bmp" left="0" top="0" right="0" bottom="0" column="6" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF4AA9EB" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="25" name="passlog" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="850.000000" y="26.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Hgs" id="26" name="crashAnim" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="810.000000" y="159.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="131" height="170" />
+                <Event enabled="true" />
+                <Option>
+                    <Animation index="0" />
+                    <HideAfterFinished enable="true" />
+                    <PlayAfterLoaded enable="false" value="1" />
+                </Option>
+                <Image name="images\crash.hgs" />
+            </Object>
+            <Object type="Text" id="28" name="textLaps" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="812.000000" y="349.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="20.000000" />
+                <Text string="LAPS" align="Left" />
+            </Object>
+            <Object type="Text" id="29" name="textTime" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="813.000000" y="377.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="20.000000" />
+                <Text string="TIME" align="Left" />
+            </Object>
+            <Object type="Text" id="30" name="textBest" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="811.000000" y="403.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="20.000000" />
+                <Text string="BEST" align="Left" />
+            </Object>
+            <Object type="Text" id="31" name="textLapsData" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="873.000000" y="348.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.800000" b="0.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="20.000000" />
+                <Text string="1/3" align="Left" />
+            </Object>
+            <Object type="Text" id="32" name="textTimeData" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="873.000000" y="376.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.800000" b="0.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="20.000000" />
+                <Text string="00:00:00" align="Left" />
+            </Object>
+            <Object type="Text" id="33" name="textBestData" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="875.000000" y="403.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.800000" b="0.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="20.000000" />
+                <Text string="00:00:00" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="35" name="imageItemBox1" show="true" defaultshow="false" stretch="true" lock="false">
+                <Position x="812.000000" y="450.000000" />
+                <Alpha value="0.800000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="29" height="29" />
+                <Image name="images\itembox.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="37" name="imageItemBox2" show="true" defaultshow="false" stretch="true" lock="false">
+                <Position x="849.000000" y="450.000000" />
+                <Alpha value="0.800000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="29" height="29" />
+                <Image name="images\itembox.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="38" name="imageItemBox3" show="true" defaultshow="false" stretch="true" lock="false">
+                <Position x="886.000000" y="450.000000" />
+                <Alpha value="0.800000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="29" height="29" />
+                <Image name="images\itembox.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="39" name="textItemZ" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="812.000000" y="435.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="12.000000" />
+                <Text string="Z" align="Left" />
+            </Object>
+            <Object type="Text" id="40" name="textItemX" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="849.000000" y="435.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="12.000000" />
+                <Text string="X" align="Left" />
+            </Object>
+            <Object type="Text" id="41" name="textItemC" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="887.000000" y="435.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Black" bold="false" height="12.000000" />
+                <Text string="C" align="Left" />
+            </Object>
+            <Object type="ImageNumber" id="42" name="imageBigNumber" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="14.000000" y="619.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Image name="images\bignumber.bmp" left="0" top="0" right="0" bottom="0" column="10" row="1" nullimage="false" useatlas="false" colorkey="FF0000FF" />
+                <Number value="0" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="43" name="imageItems" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="813.000000" y="486.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="28" height="28" />
+                <Image name="images\item.bmp" left="0" top="0" right="0" bottom="0" column="4" row="3" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Image" id="99" name="imageBombBox" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="174.000000" y="627.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="106" height="107" />
+                <Event enabled="false" />
+                <Image name="images\ido_up_ef_012.bmp" left="0" top="0" right="0" bottom="0" column="5" row="2" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Image" id="100" name="imageMissile" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="313.000000" y="643.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="60" height="60" />
+                <Event enabled="false" />
+                <Image name="images\ido_up_ob_001.bmp" left="0" top="0" right="0" bottom="0" column="4" row="6" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Hsv" id="101" name="hsvIcePenguin" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="397.000000" y="644.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="true" left="0" top="0" right="60" bottom="60" />
+                <Size width="50" height="50" />
+                <Event enabled="false" />
+                <Option>
+                    <Animation index="0" />
+                    <HideAfterFinished enable="false" />
+                    <PlayAfterLoaded enable="false" value="0" />
+                </Option>
+                <Image name="images\ice_penguin.hsv" />
+            </Object>
+            <Object type="Image" id="102" name="imageBooster" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="481.000000" y="643.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="80" height="80" />
+                <Event enabled="false" />
+                <Image name="images\ido_up_ef_006.bmp" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="119" name="imageFinishLine" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="586.000000" y="627.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="60" height="60" />
+                <Image name="images\finishline.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="214" name="imageRetire" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="686.000000" y="638.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="648" height="99" />
+                <Image name="images\lose.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Hsv" id="305" name="hsvGo" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="100.000000" y="432.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="50" height="50" />
+                <Event enabled="false" />
+                <Option>
+                    <Animation index="0" />
+                    <HideAfterFinished enable="true" />
+                    <PlayAfterLoaded enable="false" value="0" />
+                </Option>
+                <Image name="images\go.hsv" />
+            </Object>
+            <Object type="StaticImage" id="306" name="imageResultBar" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="0.000000" y="287.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="70" />
+                <Image name="images\result_bar.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="307" name="textBestNickName" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="976.000000" y="403.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.000000" b="0.000000" a="1.000000" />
+                <Font face="새굴림" bold="true" height="14.000000" />
+                <Text string="*nickname" align="Left" />
+            </Object>
+            <Object type="Text" id="308" name="textSpeed" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="852.000000" y="51.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="309" name="imageDrift" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="835.000000" y="568.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="20" height="36" />
+                <Image name="images\ido_up_ef_001.bmp" left="0" top="0" right="0" bottom="0" column="5" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF808000" />
+                <Flip vert="false" horz="false" />
+            </Object>
+        </Scene>
+        <Scene id="5" name="Scene_WaitingRoom" cursor="-1" classname="Scene_WaitingRoom">
+            <Object type="StaticImage" id="6" name="__BACKGROUND" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Image name="images\waitingRoom_bg.PNG" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Button" id="200" name="btnExit" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="695.000000" y="558.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="86" height="25" />
+                <Event enabled="true" />
+                <Image name="images\btnExit.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="FF185984" />
+            </Object>
+            <Object type="Button" id="201" name="btnReady" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="432.000000" y="530.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="169" height="55" />
+                <Event enabled="true" />
+                <Image name="images\btnReady.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+            </Object>
+            <Object type="StaticImage" id="202" name="playerSlotBg" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="821.000000" y="430.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="109" height="99" />
+                <Image name="images\waitingRoom_playerSlot.PNG" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="203" name="imageReady" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="822.000000" y="430.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="109" height="99" />
+                <Image name="images\waitingRoom_Ready.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="204" name="textPlayer" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="831.000000" y="509.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.501961" g="0.501961" b="0.501961" a="1.000000" />
+                <Font face="나눔고딕" bold="true" height="13.000000" />
+                <Text string="닉네임" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="205" name="imageHost" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="798.000000" y="668.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="31" />
+                <Image name="images\waitingRoom_host.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Group" id="206" name="groupCar" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="828.000000" y="13.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Group" id="91" name="groupCar1" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="1.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Object type="StaticImage" id="45" name="imageCar11" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="0.000000" y="5.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch001_009.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="46" name="imageCar12" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="80.000000" y="5.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch001_010.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="47" name="imageCar13" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="160.000000" y="4.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch001_011.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="48" name="imageCar14" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="237.000000" y="2.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch001_012.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="51" name="imageCar15" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="314.000000" y="2.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch001_013.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="52" name="imageCar16" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="394.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch001_014.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                </Object>
+                <Object type="Group" id="92" name="groupCar2" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="85.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Object type="StaticImage" id="55" name="imageCar21" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="0.000000" y="2.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch002_020.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="56" name="imageCar22" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="80.000000" y="3.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch002_017.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="57" name="imageCar23" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="161.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch002_018.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="58" name="imageCar24" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="241.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch002_019.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="59" name="imageCar25" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="320.000000" y="0.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch002_016.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="60" name="imageCar26" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="399.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="70" height="70" />
+                        <Image name="images\ido_up_ch002_015.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                </Object>
+                <Object type="Group" id="93" name="groupCar3" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="165.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Object type="StaticImage" id="67" name="imageCar31" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="0.000000" y="2.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="60" height="60" />
+                        <Image name="images\ido_up_ch004_007.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="68" name="imageCar32" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="80.000000" y="3.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="60" height="60" />
+                        <Image name="images\ido_up_ch004_009.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="69" name="imageCar33" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="161.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="60" height="60" />
+                        <Image name="images\ido_up_ch004_010.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="70" name="imageCar34" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="241.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="60" height="60" />
+                        <Image name="images\ido_up_ch004_011.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="71" name="imageCar35" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="320.000000" y="0.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="60" height="60" />
+                        <Image name="images\ido_up_ch004_012.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="72" name="imageCar36" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="399.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="60" height="60" />
+                        <Image name="images\ido_up_ch004_013.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                </Object>
+                <Object type="Group" id="94" name="groupCar4" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="1.000000" y="245.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Object type="StaticImage" id="75" name="imageCar41" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="0.000000" y="2.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="78" height="78" />
+                        <Image name="images\ido_up_ch009_003.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="76" name="imageCar42" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="80.000000" y="3.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="78" height="78" />
+                        <Image name="images\ido_up_ch009_005.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="77" name="imageCar43" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="161.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="78" height="78" />
+                        <Image name="images\ido_up_ch009_007.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="78" name="imageCar44" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="241.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="78" height="78" />
+                        <Image name="images\ido_up_ch009_009.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="79" name="imageCar45" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="320.000000" y="0.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="78" height="78" />
+                        <Image name="images\ido_up_ch009_011.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="80" name="imageCar46" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="399.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="78" height="78" />
+                        <Image name="images\ido_up_ch009_013.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                </Object>
+                <Object type="Group" id="95" name="groupCar5" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="3.000000" y="326.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Object type="StaticImage" id="83" name="imageCar51" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="0.000000" y="2.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="80" height="80" />
+                        <Image name="images\ido_up_ch010_001.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="84" name="imageCar52" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="80.000000" y="3.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="80" height="80" />
+                        <Image name="images\ido_up_ch010_002.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="85" name="imageCar53" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="161.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="80" height="80" />
+                        <Image name="images\ido_up_ch010_004.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="86" name="imageCar54" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="241.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="80" height="80" />
+                        <Image name="images\ido_up_ch010_006.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="87" name="imageCar55" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="320.000000" y="0.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="80" height="80" />
+                        <Image name="images\ido_up_ch010_008.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                    <Object type="StaticImage" id="88" name="imageCar56" show="true" defaultshow="true" stretch="false" lock="false">
+                        <Position x="399.000000" y="1.000000" />
+                        <Alpha value="1.000000" />
+                        <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                        <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                        <Size width="80" height="80" />
+                        <Image name="images\ido_up_ch010_012.bmp" left="0" top="0" right="0" bottom="0" column="4" row="5" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                        <Flip vert="false" horz="false" />
+                    </Object>
+                </Object>
+            </Object>
+            <Object type="Group" id="207" name="groupBigCar" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="114.000000" y="613.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="StaticImage" id="105" name="imageBigChar1" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="3.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="215" height="166" />
+                    <Image name="images\ido_up_ch001_008.bmp" left="0" top="0" right="0" bottom="0" column="3" row="2" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="106" name="imageBigChar2" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="70.000000" y="1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="261" height="177" />
+                    <Image name="images\ido_up_ch002_008.bmp" left="0" top="0" right="0" bottom="0" column="3" row="2" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="107" name="imageBigChar3" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="173.000000" y="1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="198" height="167" />
+                    <Image name="images\ido_up_ch004_008.bmp" left="0" top="0" right="0" bottom="0" column="3" row="2" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="108" name="imageBigChar4" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="262.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="227" height="192" />
+                    <Image name="images\ido_up_ch009_001.bmp" left="0" top="0" right="0" bottom="0" column="3" row="2" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="109" name="imageBigChar5" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="415.000000" y="6.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="238" height="154" />
+                    <Image name="images\ido_up_ch010_015.bmp" left="0" top="0" right="0" bottom="0" column="6" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF0000FF" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+            <Object type="Group" id="208" name="groupSmallChar" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="116.000000" y="801.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="112" name="imageSmallChar1" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="42" />
+                    <Event enabled="true" />
+                    <Image name="images\ido_up_ch001_015.bmp" left="0" top="0" right="0" bottom="0" column="7" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="113" name="imageSmallChar2" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="73.000000" y="2.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="42" />
+                    <Event enabled="true" />
+                    <Image name="images\ido_up_ch002_021.bmp" left="0" top="0" right="0" bottom="0" column="7" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="115" name="imageSmallChar3" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="154.000000" y="1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="42" />
+                    <Event enabled="true" />
+                    <Image name="images\ido_up_ch004_016.bmp" left="0" top="0" right="0" bottom="0" column="7" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="116" name="imageSmallChar4" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="229.000000" y="1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="42" />
+                    <Event enabled="true" />
+                    <Image name="images\ido_up_ch009_015.bmp" left="0" top="0" right="0" bottom="0" column="7" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="117" name="imageSmallChar5" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="305.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="42" />
+                    <Event enabled="true" />
+                    <Image name="images\ido_up_ch010_016.bmp" left="0" top="0" right="0" bottom="0" column="7" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+            <Object type="TextList" id="209" name="textlistChat" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="15.000000" y="455.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="388" height="103" />
+                <Event enabled="true" />
+                <Image name="" left="0" top="0" right="0" bottom="0" nullimage="true" useatlas="false" colorkey="FF000000" />
+                <Font face="나눔고딕" bold="false" height="13.000000" />
+                <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                <ClientRect left="0" top="0" right="388" bottom="103" />
+                <Row height="16.000000" />
+                <Wordwrap enabled="true" />
+                <Object type="VertScrollBar" id="121" name="vscrollChat" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="388.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="103" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <Thumb name="images\chat_bar.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Decrease name="images\chat_up.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Increase name="images\chat_down.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Shaft name="" left="0" top="0" right="0" bottom="0" nullimage="true" useatlas="false" colorkey="0" />
+                    <Property min="0.000000" max="100.000000" page="50.000000" step="5.000000" />
+                </Object>
+            </Object>
+            <Object type="Edit" id="210" name="editChat" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="19.000000" y="566.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="344" height="15" />
+                <Event enabled="true" />
+                <Image name="" left="0" top="0" right="0" bottom="0" nullimage="true" useatlas="false" colorkey="0" />
+                <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                <Font face="나눔고딕" bold="false" height="12.000000" language="0" />
+                <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                <Font face="Arial" bold="false" height="12.000000" language="4" />
+                <ClientRect left="0" top="0" right="344" bottom="15" />
+                <Property maxlength="1024" mask="false" masksymbol="42" />
+            </Object>
+            <Object type="Group" id="304" name="groupMapInfo" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="448.000000" y="94.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="301" name="imageMapDifficulty" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="21.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="44" height="21" />
+                    <Event enabled="false" />
+                    <Image name="images\waitingRoom_difficulty.bmp" left="0" top="0" right="0" bottom="0" column="3" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF8C4500" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Text" id="302" name="textMapName" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="73.000000" y="3.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                    <Font face="나눔고딕" bold="true" height="15.000000" />
+                    <Text string="아이스맵1" align="Left" />
+                </Object>
+                <Object type="StaticImage" id="303" name="imageMap" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="45.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="195" height="82" />
+                    <Image name="images\waitingRoom_minimap.PNG" left="0" top="0" right="0" bottom="0" column="3" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+            <Object type="Button" id="216" name="btnPrevMap" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="448.000000" y="99.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="8" height="12" />
+                <Event enabled="false" />
+                <Image name="images\waitingRoom_prevMap.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+            </Object>
+            <Object type="Button" id="217" name="btnNextMap" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="757.000000" y="100.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="8" height="12" />
+                <Event enabled="false" />
+                <Image name="images\waitingRoom_nextMap.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+            </Object>
+        </Scene>
+        <Scene id="311" name="iDoLobby_LobbyMainScene" cursor="-1" classname="iDoLobby_LobbyMainScene">
+            <Object type="StaticImage" id="312" name="__BACKGROUND" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="760" height="586" />
+                <Image name="images\iDoLobby\bg.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Group" id="313" name="grpLobby" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Text" id="314" name="txtGameTitle" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="15.000000" y="17.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.000000" g="0.537255" b="0.639216" a="1.000000" />
+                    <Font face="돋움" bold="true" height="14.000000" />
+                    <Text string="게임 이름" align="Left" />
+                </Object>
+                <Object type="Text" id="315" name="txtRoomCount" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="105.000000" y="19.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.439216" g="0.439216" b="0.439216" a="1.000000" />
+                    <Font face="돋움" bold="false" height="11.000000" />
+                    <Text string="0개방" align="Left" />
+                </Object>
+                <Object type="StaticImage" id="316" name="imgSep" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="90.000000" y="17.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="5" height="17" />
+                    <Image name="images\iDoLobby\seperator.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="CheckBox" id="317" name="chkShowAvailRoom" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="9.000000" y="53.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="80" height="21" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\chk_show_available_room.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Checked value="false" />
+                </Object>
+                <Object type="CheckBox" id="318" name="chkSortRoom" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="92.000000" y="53.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="80" height="21" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\chk_sort_room.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Checked value="false" />
+                </Object>
+                <Object type="Button" id="319" name="btnDirectStart" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="425.000000" y="9.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="84" height="32" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_direct_start.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="320" name="btnCreateRoom" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="512.000000" y="9.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="84" height="32" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_create_room.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="321" name="btnSingleGame" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="599.000000" y="9.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="84" height="32" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_single.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="322" name="btnRanking" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="686.000000" y="9.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="32" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_ranking.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Text" id="323" name="txtPlayer" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="610.000000" y="56.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.439216" g="0.439216" b="0.439216" a="1.000000" />
+                    <Font face="돋움" bold="true" height="12.000000" />
+                    <Text string="접속자" align="Left" />
+                </Object>
+                <Object type="PlayerListWnd" id="324" name="playerListWnd" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="600.000000" y="78.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="159" height="174" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <HeaderImage name="images\iDoLobby\member_TOP.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <ScrollBarImage name="" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <ScrollShaftImage name="images\iDoLobby\member_scr_02.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <ScrollThumbImage name="images\iDoLobby\member_scr_01.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Property Column="2" HeaderHeight="20">
+                        <BackColor r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                        <TextColor r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                        <FontInfo face="돋움" bold="false" height="11.000000" language="0" />
+                        <HeaderFontInfo face="돋움" bold="false" height="11.000000" language="0" />
+                    </Property>
+                    <ColumnAlign type="0" />
+                    <ColumnAlign type="1" />
+                </Object>
+                <Object type="Button" id="325" name="btnChannelExit" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="607.000000" y="550.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="146" height="29" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_cha_exit.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="RoomListWnd" id="326" name="roomListWnd" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="78.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="595" height="507" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="true" useatlas="false" colorkey="0" />
+                    <ScrollImage name="images\iDoLobby\scr_roomlist.png" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <SlotTopImage name="images\iDoLobby\slot_frame_top.png" left="0" top="0" right="0" bottom="0" column="3" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <SlotCenterImage name="images\iDoLobby\slot_frame_center.png" left="0" top="0" right="0" bottom="0" column="3" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <SlotBottomImage name="images\iDoLobby\slot_frame_bottom.png" left="0" top="0" right="0" bottom="0" column="3" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <EnterButtonImage name="images\iDoLobby\btn_slot_start.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <CreateButtonImage name="images\iDoLobby\btn_slot_create_room.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <CapacityImage name="images\iDoLobby\ico_slot_player_count.png" left="0" top="0" right="0" bottom="0" column="2" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <LockImage name="images\iDoLobby\ico_lock.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <RoomTypeImage name="images\iDoLobby\bg_slot_player_count.png" left="0" top="0" right="0" bottom="0" column="2" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <RoomSlot width="280" height="80" vertgap="3" horzgap="6" />
+                    <Property type="0" show="true">
+                        <Rect left="14" top="0" right="56" bottom="12" />
+                        <FontColor r="0.125490" g="0.600000" b="0.690196" a="1.000000" />
+                        <FontInfo face="Verdana" bold="true" height="9.000000" language="0" />
+                        <Alignment horz="Left" vert="Top" />
+                    </Property>
+                    <Property type="1" show="true">
+                        <Rect left="45" top="0" right="252" bottom="12" />
+                        <FontColor r="0.274510" g="0.274510" b="0.274510" a="1.000000" />
+                        <FontInfo face="돋움" bold="false" height="12.000000" language="0" />
+                        <Alignment horz="Left" vert="Top" />
+                    </Property>
+                    <Property type="2" show="false">
+                        <Rect left="2" top="15" right="93" bottom="28" />
+                        <FontColor r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                        <FontInfo face="굴림" bold="false" height="15.000000" language="0" />
+                        <Alignment horz="Left" vert="Center" />
+                    </Property>
+                    <Property type="3" show="false">
+                        <Rect left="93" top="15" right="184" bottom="28" />
+                        <FontColor r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                        <FontInfo face="굴림" bold="false" height="15.000000" language="0" />
+                        <Alignment horz="Left" vert="Center" />
+                    </Property>
+                    <Property type="4" show="false">
+                        <Rect left="184" top="15" right="277" bottom="28" />
+                        <FontColor r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                        <FontInfo face="굴림" bold="false" height="15.000000" language="0" />
+                        <Alignment horz="Left" vert="Center" />
+                    </Property>
+                    <Property type="5" show="true">
+                        <Rect left="128" top="31" right="181" bottom="49" />
+                        <FontColor r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                        <FontInfo face="Verdana" bold="true" height="11.000000" language="0" />
+                        <Alignment horz="Center" vert="Top" />
+                    </Property>
+                    <Property type="6" show="true">
+                        <Rect left="188" top="21" right="271" bottom="58" />
+                    </Property>
+                    <Property type="7" show="true">
+                        <Rect left="188" top="21" right="271" bottom="58" />
+                    </Property>
+                    <Property type="8" show="true">
+                        <Rect left="17" top="27" right="130" bottom="52" />
+                    </Property>
+                    <Property type="9" show="true">
+                        <Rect left="45" top="0" right="55" bottom="11" />
+                    </Property>
+                    <Property type="10" show="true">
+                        <Rect left="11" top="21" right="183" bottom="57" />
+                    </Property>
+                    <Mode type="0" option1="Opt1" option2="Opt2" />
+                    <Mode type="1" option1="Opt1" option2="Opt2" />
+                    <Mode type="2" option1="Opt1" option2="Opt2" />
+                    <ClientRect left="9" top="7" right="581" bottom="507" />
+                </Object>
+                <Object type="CheckBox" id="327" name="chkChattingTitle" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="600.000000" y="251.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="159" height="29" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\chk_chatting_title.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Checked value="false" />
+                </Object>
+                <Object type="Text" id="328" name="txtChattingChannel" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="610.000000" y="260.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.439216" g="0.439216" b="0.439216" a="1.000000" />
+                    <Font face="돋움" bold="true" height="12.000000" />
+                    <Text string="채팅" align="Left" />
+                </Object>
+                <Object type="ChatWnd" id="329" name="chatWindow" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="600.000000" y="280.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="170" right="159" bottom="265" />
+                    <Size width="159" height="263" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\bg_chating.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <ScrollImage name="images\iDoLobby\member_scr_03.png" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <ButtonImage name="images\iDoLobby\btn_report.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <CopyUrlBtnImage name="images\iDoLobby\btn_urlcopy.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <ComboButtonImage name="images\iDoLobby\combo_chattingChannelNo.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <ComboListBgImage name="images\iDoLobby\creatroom_btn_creattit_bg.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <ComboScrollImage name="images\iDoLobby\scr_chatting.png" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <ComboTopBorderImage name="images\iDoLobby\comboBG_creattit_top.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <InputRect left="14" top="182" right="158" bottom="198" />
+                    <OutputRect left="10" top="10" right="159" bottom="163" />
+                    <ButtonRect left="112" top="206" right="152" bottom="228" />
+                    <CopyUrlRect left="7" top="242" right="152" bottom="264" />
+                    <ComboRect left="7" top="206" right="109" bottom="227" />
+                    <InputFontColor r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                    <InputFontInfo face="돋움" bold="false" height="11.000000" language="0" />
+                    <InputFontInfo face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <InputFontInfo face="SimSun" bold="false" height="12.000000" language="2" />
+                    <InputFontInfo face="SimHei" bold="false" height="12.000000" language="3" />
+                    <InputFontInfo face="Courier New" bold="false" height="12.000000" language="4" />
+                    <InputProperty maxlength="1024" />
+                    <OutputFontColor r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                    <OutputFontInfo face="돋움" bold="false" height="11.000000" language="0" />
+                    <OutputProperty maxlines="100" wordwrap="true" />
+                    <ChannelColorInfo r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                    <ChannelFontInfo face="돋움" bold="false" height="12.000000" language="0" />
+                </Object>
+                <Object type="ComboBox" id="330" name="cmbLobbyList" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="140.000000" y="14.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="88" height="21" />
+                    <Event enabled="true" />
+                    <FontInfo face="Arial Unicode MS" bold="false" height="12.000000" language="0" />
+                    <ColorInfo r="0.000000" g="0.000000" b="0.000000" a="1.000000" />
+                    <ButtonImage name="images\iDoLobby\combo_channel.bmp" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListBgImage name="images\iDoLobby\edt_bg.PNG" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListScrImage name="images\iDoLobby\scr_chatting.png" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListTopImage name="images\iDoLobby\comboBG_creattit_top.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListBottomImage name="images\iDoLobby\comboBG_creattit_top.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Text" id="331" name="txtLobbyName" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="146.000000" y="19.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="1.000000" />
+                    <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                    <Text string="Text" align="Left" />
+                </Object>
+            </Object>
+            <Object type="Group" id="332" name="grpPopup" show="false" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+            </Object>
+        </Scene>
+        <Scene id="334" name="iDoLobby_GameIntroScene" cursor="-1" classname="iDoLobby_GameIntroScene">
+            <Object type="StaticImage" id="335" name="__BACKGROUND" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="760" height="586" />
+                <Image name="images\iDoLobby\logoScene.jpg" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Group" id="336" name="grpPopup" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+            </Object>
+        </Scene>
+        <Scene id="338" name="iDoLobby_PopupScene" cursor="-1" classname="iDoLobby_PopupScene">
+            <Object type="StaticImage" id="339" name="__BACKGROUND" show="false" defaultshow="true" stretch="true" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="1024" height="786" />
+                <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Group" id="340" name="grpCreateRoom" show="false" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="341" name="imgBg" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="301" height="304" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_creatroom_bg.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Edit" id="342" name="edtRoomTitle" show="false" defaultshow="true" stretch="true" lock="true">
+                    <Position x="78.000000" y="63.000000" />
+                    <Alpha value="0.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="150" height="18" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="true" useatlas="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="150" bottom="18" />
+                    <Property maxlength="1024" mask="false" masksymbol="42" />
+                </Object>
+                <Object type="CheckBox" id="343" name="chkRoomTitleCombo" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="258.000000" y="62.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="15" height="15" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_creatroom_creattit_btn.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Checked value="false" />
+                </Object>
+                <Object type="RadioButton" id="344" name="radPasswordOption1" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="72.000000" y="96.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="57" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\creatroom_radio_01.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="true" />
+                </Object>
+                <Object type="RadioButton" id="345" name="radPasswordOption2" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="72.000000" y="119.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="92" height="30" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\creatroom_radio_02.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="Edit" id="346" name="edtPassword" show="false" defaultshow="true" stretch="true" lock="true">
+                    <Position x="173.000000" y="136.000000" />
+                    <Alpha value="0.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="107" height="21" />
+                    <Event enabled="false" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="FFFFFFFF" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="FF000000" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="돋움" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="107" bottom="21" />
+                    <Property maxlength="1024" mask="true" masksymbol="42" />
+                </Object>
+                <Object type="RadioButton" id="347" name="radInviteOption1" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="72.000000" y="166.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="72" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\creatroom_radio_03.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="348" name="radInviteOption2" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="72.000000" y="189.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="81" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\creatroom_radio_05.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="349" name="radInviteOption3" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="72.000000" y="212.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="69" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\creatroom_radio_04.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="Button" id="350" name="btnOK" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="82.000000" y="261.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_confirm.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="351" name="btnCancel" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="153.000000" y="261.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_cancel.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="352" name="btnClose" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="267.000000" y="17.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="11" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_Top_Exit.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Image" id="353" name="imgRoomTitleComboBg" show="false" defaultshow="true" stretch="true" lock="true">
+                    <Position x="71.000000" y="80.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="206" height="50" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\creatroom_btn_creattit_bg.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="354" name="imgRoomTitleComboBgTop" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="71.000000" y="79.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="206" height="3" />
+                    <Image name="images\iDoLobby\creatroom_btn_creattit_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="355" name="imgRoomTitleComboBgBottom" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="71.000000" y="128.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="206" height="4" />
+                    <Image name="images\iDoLobby\creatroom_btn_creattit_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Text" id="356" name="txtSelectCount" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="160.000000" y="212.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.125490" g="0.600000" b="0.690196" a="1.000000" />
+                    <Font face="돋움" bold="true" height="12.000000" />
+                    <Text string="0" align="Right" />
+                </Object>
+                <Object type="Text" id="357" name="txtSelectString" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="212.000000" y="212.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.125490" g="0.600000" b="0.690196" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="명 선택됨" align="Right" />
+                </Object>
+                <Object type="Button" id="358" name="btnModify" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="219.000000" y="209.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="36" height="20" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_modify.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+            </Object>
+            <Object type="Group" id="359" name="grpPassword" show="false" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="360" name="passwordBg" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="242" height="144" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_pass.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Edit" id="361" name="editPassword" show="false" defaultshow="true" stretch="true" lock="true">
+                    <Position x="29.000000" y="49.000000" />
+                    <Alpha value="0.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="190" height="18" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="190" bottom="18" />
+                    <Property maxlength="1024" mask="true" masksymbol="42" />
+                </Object>
+                <Object type="Button" id="362" name="btnPasswordOK" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="52.000000" y="100.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_confirm.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="363" name="btnPasswordCancel" show="false" defaultshow="true" stretch="false" lock="true">
+                    <Position x="123.000000" y="100.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_cancel.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+            </Object>
+            <Object type="Group" id="364" name="grpInvite" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="59128" name="imgChosens" show="true" defaultshow="false" stretch="true" lock="false">
+                    <Position x="23.000000" y="216.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="307" height="98" />
+                    <Event enabled="false" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="59127" name="imgCandidates" show="true" defaultshow="false" stretch="true" lock="false">
+                    <Position x="22.000000" y="85.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="307" height="98" />
+                    <Event enabled="false" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="57077" name="inviteBg" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="354" height="374" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_invite_bg.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Group" id="59129" name="grpCandidates" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="23.000000" y="107.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                </Object>
+                <Object type="Group" id="58136" name="grpCandidatesScr" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                </Object>
+                <Object type="Button" id="59130" name="btnInviteClose" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="321.000000" y="17.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="11" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_Top_Exit.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59131" name="btnInviteOK" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="110.000000" y="331.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_confirm.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59132" name="btnInviteCancel" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="181.000000" y="331.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_cancel.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59133" name="btnInviteFind" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="294.000000" y="58.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="36" height="20" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\creatroom_btn_search.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="VertScrollBar" id="59134" name="scrCandidates" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="311.000000" y="107.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="18" height="75" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\scr_common.png" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <Thumb name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Decrease name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Increase name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Shaft name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Property min="0.000000" max="100.000000" page="50.000000" step="5.000000" />
+                </Object>
+                <Object type="Edit" id="59135" name="edtPlayerSearch" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="97.000000" y="61.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="194" height="12" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\edt_bg.PNG" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="1.000000" />
+                    <Font face="굴림" bold="false" height="12.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="194" bottom="12" />
+                    <Property maxlength="1024" mask="false" masksymbol="42" />
+                </Object>
+                <Object type="VertScrollBar" id="59136" name="scrChosens" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="311.000000" y="239.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="18" height="75" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\scr_common.png" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <Thumb name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Decrease name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Increase name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Shaft name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Property min="0.000000" max="100.000000" page="50.000000" step="5.000000" />
+                </Object>
+                <Object type="Group" id="59137" name="grpChosens" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="24.000000" y="239.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                </Object>
+                <Object type="Group" id="58282" name="grpChosensScr" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59138" name="grpInviteAccept" show="false" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="59139" name="inviteAcceptBg" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="354" height="152" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_invite_accept.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Button" id="59140" name="btnInviteAccept" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="109.000000" y="107.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_accept.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59141" name="btnInviteReject" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="180.000000" y="107.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_decline.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Text" id="59142" name="txtInviter" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="22.000000" y="23.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="사용자1님이 게임초대를 신청했습니다." align="Left" />
+                </Object>
+                <Object type="Text" id="59143" name="txtRemainTime" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="78.000000" y="62.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.996078" g="0.282353" b="0.141176" a="1.000000" />
+                    <Font face="돋움" bold="true" height="11.000000" />
+                    <Text string="15" align="Right" />
+                </Object>
+                <Object type="StaticImage" id="59144" name="imgLoadingBar" show="false" defaultshow="true" stretch="true" lock="false">
+                    <Position x="22.000000" y="50.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="308" height="6" />
+                    <Image name="images\iDoLobby\loading_graph.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59145" name="grpAccuse" show="false" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="59146" name="accuseBg" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="377" height="516" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_bg.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Button" id="59147" name="btnAccuseExit" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="344.000000" y="17.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="11" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_Top_Exit.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Text" id="59148" name="txtAccuseNick" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="115.000000" y="176.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="사용자 별명" align="Left" />
+                </Object>
+                <Object type="RadioButton" id="59149" name="radioAccuse1" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="116.000000" y="302.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="40" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_rd01.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="true" />
+                </Object>
+                <Object type="RadioButton" id="59150" name="radioAccuse2" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="171.000000" y="302.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="65" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_rd02.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="59151" name="radioAccuse3" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="251.000000" y="302.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="77" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_rd03.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="59152" name="radioAccuse4" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="116.000000" y="327.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="78" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_rd04.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="59153" name="radioAccuse5" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="251.000000" y="327.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="80" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_rd05.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="59154" name="radioAccuse6" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="116.000000" y="352.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="116" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_rd06.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="59155" name="radioAccuse7" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="251.000000" y="352.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="42" height="13" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_rd07.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="Edit" id="59156" name="editAccuseReport" show="false" defaultshow="true" stretch="true" lock="false">
+                    <Position x="120.000000" y="377.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="232" height="14" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\edt_bg.PNG" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="true" useatlas="false" colorkey="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="1.000000" />
+                    <Font face="굴림" bold="false" height="12.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="232" bottom="14" />
+                    <Property maxlength="1024" mask="false" masksymbol="42" />
+                </Object>
+                <Object type="Button" id="59157" name="btnAccuseOK" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="120.000000" y="473.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_report2.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59158" name="btnAccuseCancel" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="191.000000" y="473.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_cancel.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Group" id="59159" name="grpPlayerList" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="117.000000" y="205.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                </Object>
+                <Object type="VertScrollBar" id="59160" name="scrChatter" show="false" defaultshow="true" stretch="true" lock="false">
+                    <Position x="334.000000" y="204.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="18" height="80" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\scr_common.png" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <Thumb name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Decrease name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Increase name="" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <Shaft name="" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <Property min="0.000000" max="100.000000" page="50.000000" step="5.000000" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59161" name="grpAccuseResult" show="false" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="59162" name="accuseResultBg" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="377" height="242" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_report_bg02.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Button" id="59163" name="btnAccuseResultOK" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="156.000000" y="199.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_confirm.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59164" name="btnAccuseResultExit" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="344.000000" y="17.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="11" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_Top_Exit.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Image" id="59165" name="imgAccuseUrlLink" show="false" defaultshow="true" stretch="true" lock="false">
+                    <Position x="172.000000" y="84.000000" />
+                    <Alpha value="0.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="30" height="20" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF000000" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="59166" name="imgAccuseUrlLink2" show="false" defaultshow="true" stretch="true" lock="false">
+                    <Position x="250.000000" y="128.000000" />
+                    <Alpha value="0.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="80" height="20" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FF000000" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59167" name="grpRanking" show="false" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="59168" name="rankingBg" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="354" height="406" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_ranking_bg.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="59169" name="imgDayRanking" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="22.000000" y="41.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="154" height="30" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_ranking_tab_daily.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="59170" name="imgTotalRanking" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="176.000000" y="41.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="154" height="30" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_ranking_tab_weekly.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" index="3" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="ComboBox" id="59171" name="cbRankingList" show="false" defaultshow="true" stretch="true" lock="false">
+                    <Position x="22.000000" y="80.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="102" height="21" />
+                    <Event enabled="true" />
+                    <FontInfo face="Arial Unicode MS" bold="false" height="12.000000" language="0" />
+                    <ColorInfo r="0.000000" g="0.000000" b="0.000000" a="1.000000" />
+                    <ButtonImage name="images\iDoLobby\combo_ranking.bmp" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListBgImage name="images\iDoLobby\creatroom_btn_creattit_bg.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListScrImage name="" left="0" top="0" right="0" bottom="0" column="4" row="4" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListTopImage name="images\iDoLobby\creatroom_btn_creattit_top.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                    <ListBottomImage name="images\iDoLobby\creatroom_btn_creattit_bottom.png" left="0" top="0" right="0" bottom="0" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59172" name="btnMyRanking" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="127.000000" y="80.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="73" height="22" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_ranking_btn_myranking.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59173" name="btnPrevPage" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="246.000000" y="86.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="12" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_ranking_btn_prev.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59174" name="btnNextPage" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="317.000000" y="85.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="12" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_ranking_btn_next.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Text" id="59175" name="txtRankingRange" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="286.500000" y="85.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                    <Font face="돋움" bold="false" height="11.000000" />
+                    <Text string="11~20위" align="Center" />
+                </Object>
+                <Object type="Button" id="59176" name="btnRankingExit" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="144.000000" y="362.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_exit2.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Button" id="59177" name="btnRankingClose" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="321.000000" y="16.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="11" height="11" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_Top_Exit.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+                <Object type="Text" id="59178" name="txtRankingMessage" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="111.000000" y="225.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="등록된 랭킹이 없습니다." align="Left" />
+                </Object>
+                <Object type="Group" id="59179" name="grpRankingList" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="23.000000" y="14.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59180" name="grpMessageBox" show="false" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Image" id="59181" name="imgModal" show="false" defaultshow="true" stretch="true" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="0.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="131" height="16" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\edt_bg.PNG" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="FFFFFFFF" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="59182" name="messageBoxBg" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="354" height="132" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_messageBox2.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Image" id="59183" name="messageBoxBg4" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="354" height="174" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\pop_messageBox4.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Text" id="59184" name="txtMessage1" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="21.000000" y="22.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="게임 URL이 복사되었습니다." align="Left" />
+                </Object>
+                <Object type="Text" id="59185" name="txtMessage2" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="21.000000" y="40.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="게임 URL이 복사되었습니다." align="Left" />
+                </Object>
+                <Object type="Text" id="59186" name="txtMessage3" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="21.000000" y="64.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="게임 URL이 복사되었습니다." align="Left" />
+                </Object>
+                <Object type="Text" id="59187" name="txtMessage4" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="21.000000" y="82.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.403922" g="0.403922" b="0.403922" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="게임 URL이 복사되었습니다." align="Left" />
+                </Object>
+                <Object type="Button" id="59188" name="btnMessageBoxExit" show="false" defaultshow="true" stretch="false" lock="false">
+                    <Position x="143.000000" y="130.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="66" height="26" />
+                    <Event enabled="true" />
+                    <Image name="images\iDoLobby\btn_exit2.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+                </Object>
+            </Object>
+        </Scene>
+        <Scene id="59190" name="iDoLobby_GameGuideScene01" cursor="-1" classname="iDoLobby_GameGuideScene01">
+            <Object type="StaticImage" id="59191" name="__BACKGROUND" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="760" height="586" />
+                <Image name="images\iDoLobby\gud_bg.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Button" id="59192" name="btnGameStart" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="658.000000" y="9.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="94" height="32" />
+                <Event enabled="true" />
+                <Image name="images\iDoLobby\gud_btn_gamestart.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+            </Object>
+            <Object type="Button" id="59193" name="btnTutorial" show="true" defaultshow="false" stretch="false" lock="false">
+                <Position x="587.000000" y="9.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="66" height="32" />
+                <Event enabled="true" />
+                <Image name="images\iDoLobby\gud_btn_tutorial.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" useatlas="false" colorkey="0" />
+            </Object>
+            <Object type="Text" id="59194" name="txtGameTitle" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="15.000000" y="17.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.537255" b="0.639216" a="1.000000" />
+                <Font face="돋움" bold="true" height="14.000000" />
+                <Text string="게임 이름" align="Left" />
+            </Object>
+            <Object type="Group" id="59195" name="grpGuide1" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="19.000000" y="95.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="StaticImage" id="59196" name="staticimageImageTop" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59197" name="staticimageImageBottom" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="129.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59198" name="staticimageImageMiddle" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="35.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="94" />
+                    <Image name="images\iDoLobby\gud_img_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59199" name="staticimageImageExample" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="22.000000" y="73.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="308" height="30" />
+                    <Image name="images\iDoLobby\gud_img_bg_text.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59200" name="staticimageTextTop" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="165.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="13" />
+                    <Image name="images\iDoLobby\gud_txt_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59201" name="staticimageTextMiddle" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="178.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="36" />
+                    <Image name="images\iDoLobby\gud_txt_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59202" name="staticimageTextBottom" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="214.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="16" />
+                    <Image name="images\iDoLobby\gud_txt_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59203" name="staticimageGuide1" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="-1.000000" y="-1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="36" height="35" />
+                    <Image name="images\iDoLobby\gud_num_01.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="Text" id="59204" name="textGuideTitle" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="11.000000" y="176.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.125490" g="0.596078" b="0.690196" a="1.000000" />
+                    <Font face="돋움" bold="true" height="12.000000" />
+                    <Text string="가이드 소제목" align="Left" />
+                </Object>
+                <Object type="Text" id="59205" name="textGuideDesc1" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="11.000000" y="191.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="게임UI, 조작법, 게임 방법 및 규칙 등 이미지의 자세한 설명을" align="Left" />
+                </Object>
+                <Object type="Text" id="59206" name="textGuideDesc2" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="11.000000" y="205.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.364706" g="0.364706" b="0.364706" a="1.000000" />
+                    <Font face="돋움" bold="false" height="12.000000" />
+                    <Text string="입력하는 영역입니다." align="Left" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59207" name="grpGuide2" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="389.000000" y="95.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="StaticImage" id="59208" name="staticimageImageTop2" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59209" name="staticimageImageBottom2" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="129.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59210" name="staticimageImageMiddle2" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="35.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="94" />
+                    <Image name="images\iDoLobby\gud_img_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59211" name="staticimageTextTop2" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="165.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="13" />
+                    <Image name="images\iDoLobby\gud_txt_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59212" name="staticimageTextMiddle2" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="178.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="36" />
+                    <Image name="images\iDoLobby\gud_txt_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59213" name="staticimageTextBottom2" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="214.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="16" />
+                    <Image name="images\iDoLobby\gud_txt_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59214" name="staticimageGuide2" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="-1.000000" y="-1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="36" height="35" />
+                    <Image name="images\iDoLobby\gud_num_02.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59215" name="grpGuide3" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="19.000000" y="339.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="StaticImage" id="59216" name="staticimageImageTop3" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59217" name="staticimageImageBottom3" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="129.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59218" name="staticimageImageMiddle3" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="35.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="94" />
+                    <Image name="images\iDoLobby\gud_img_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59219" name="staticimageTextTop3" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="165.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="13" />
+                    <Image name="images\iDoLobby\gud_txt_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59220" name="staticimageTextMiddle3" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="178.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="36" />
+                    <Image name="images\iDoLobby\gud_txt_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59221" name="staticimageTextBottom3" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="214.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="16" />
+                    <Image name="images\iDoLobby\gud_txt_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59222" name="staticimageGuide3" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="-1.000000" y="-1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="36" height="35" />
+                    <Image name="images\iDoLobby\gud_num_03.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+            <Object type="Group" id="59223" name="grpGuide4" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="389.000000" y="339.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="StaticImage" id="59224" name="staticimageImageTop4" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59225" name="staticimageImageBottom4" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="129.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="35" />
+                    <Image name="images\iDoLobby\gud_img_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59226" name="staticimageImageMiddle4" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="35.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="94" />
+                    <Image name="images\iDoLobby\gud_img_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59227" name="staticimageTextTop4" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="165.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="13" />
+                    <Image name="images\iDoLobby\gud_txt_bg_top.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59228" name="staticimageTextMiddle4" show="true" defaultshow="true" stretch="true" lock="true">
+                    <Position x="0.000000" y="178.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="36" />
+                    <Image name="images\iDoLobby\gud_txt_bg_middle.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59229" name="staticimageTextBottom4" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="214.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="353" height="16" />
+                    <Image name="images\iDoLobby\gud_txt_bg_bottom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+                <Object type="StaticImage" id="59230" name="staticimageGuide4" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="-1.000000" y="-1.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="36" height="35" />
+                    <Image name="images\iDoLobby\gud_num_04.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" useatlas="false" index="0" colorkey="0" />
+                    <Flip vert="false" horz="false" />
+                </Object>
+            </Object>
+        </Scene>
+    </SceneList>
+    <SoundList>
+        <Sound type="Sound2D" id="10002" filename="sounds\815_1242134321648_enterPlayer.ogg" name="sndEnterPlayer" />
+        <Sound type="Sound2D" id="10003" filename="sounds\815_1242134352237_leavePlayer.ogg" name="sndLeavePlayer" />
+        <Sound type="Sound2D" id="10004" filename="sounds\815_1242134338048_enterRoom.ogg" name="sndEnterRoom" />
+        <Sound type="Stream2D" id="10005" filename="sounds\815_1242136202554_waitingRoom.ogg" name="sndWaitingRoom" />
+        <Sound type="Stream2D" id="10006" filename="sounds\815_1242136483286_playing.ogg" name="sndPlaying" />
+        <Sound type="Sound2D" id="10007" filename="sounds\815_1242119577479_youWin.ogg" name="sndYouWin" />
+        <Sound type="Sound2D" id="10008" filename="sounds\815_1242117072535_finished.ogg" name="sndFinished" />
+    </SoundList>
+    <StringList />
+</Resource>

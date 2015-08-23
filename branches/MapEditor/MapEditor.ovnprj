@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GOProject GameOVEN_Version="1.2.0">
+    <GameInfo>
+        <ClientWindow Width="1024" Height="768" />
+        <MaxUser Value="2" />
+        <Fps Value="60" />
+        <Platform Name="idogame" />
+    </GameInfo>
+    <List>
+        <Filter Name="Source Files">
+            <Script Name="server.lua" Path="server.lua" />
+            <Script Name="client.lua" Path="client.lua" />
+            <Script Name="MapEditorConsts.lua" Path="MapEditorConsts.lua" />
+            <Script Name="MapEditorProtocol.lua" Path="MapEditorProtocol.lua" />
+            <Script Name="MapEditorScene.lua" Path="MapEditorScene.lua" />
+            <Script Name="MapEditorServerApp.lua" Path="MapEditorServerApp.lua" />
+            <Script Name="MapEditorClientApp.lua" Path="MapEditorClientApp.lua" />
+            <Script Name="MapEditorSoundObject.lua" Path="MapEditorSoundObject.lua" />
+            <Script Name="MapEditorSceneUIObject.lua" Path="MapEditorSceneUIObject.lua" />
+            <Layout Name="Scene1" />
+        </Filter>
+        <Filter Name="Resource Files">
+            <Filter Name="Image Files">
+                <Image Name="background.PNG" Path="images\background.PNG" />
+                <Image Name="btnSelect.PNG" Path="images\btnSelect.PNG" />
+                <Image Name="imgSelected.PNG" Path="images\imgSelected.PNG" />
+                <Image Name="btnSave.PNG" Path="images\btnSave.PNG" />
+                <Image Name="btnLoad.PNG" Path="images\btnLoad.PNG" />
+                <Image Name="btnNew.PNG" Path="images\btnNew.PNG" />
+                <Image Name="btnPrint.PNG" Path="images\btnPrint.PNG" />
+            </Filter>
+            <Filter Name="Sound Files" />
+        </Filter>
+    </List>
+</GOProject>

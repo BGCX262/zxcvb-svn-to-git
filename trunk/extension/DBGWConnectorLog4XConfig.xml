@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Log4XConfig xmlns="http://www.nhncorp.com/xgp/Log4XConfig.xsd">
+	<Log4X ServiceName="DBGWConnector"/>
+
+	<!-- Logger information -->
+	<Loggers>
+		<Logger Name="Logger1" LogLevel="Error"/>
+	</Loggers>
+
+	<!-- Appender information -->
+	<Appenders>
+		<Appender Name="DBGWConnector Appender" Type="Log4XBasic.DailyRollingFileAppender">
+			<AppenderParameter Name="LoggingDirectory" Value=".\Log\"/>
+			<AppenderParameter Name="Schedule" Value="Hourly"/>
+			<AppenderParameter Name="FileNamePrefix" Value="Log4XDBGWConnector_"/>
+			<AppenderParameter Name="FileNamePostfix" Value=".log" />
+			<AppenderParameter Name="ImmediateFlush" Value="true" />
+			<AppenderParameter Name="Append" Value="true" />
+		</Appender>
+	</Appenders>
+
+	<!-- Layout information -->
+	<Layouts>
+		<Layout Name="Basic Layout" Type="Log4XBasic.BasicLayout"/>
+		<Layout Name="Simple Layout" Type="Log4XBasic.SimpleLayout"/>
+	</Layouts>
+
+	<!-- Logger binding information -->
+	<LoggerBindings>
+		<LoggerBinding LoggerRef="Logger1">
+			<AppenderRef Name="DBGWConnector Appender"/>
+		</LoggerBinding>
+	</LoggerBindings>
+
+	<!-- Appender binding information -->
+	<AppenderBindings>
+		<AppenderBinding AppenderRef="DBGWConnector Appender">
+			<LayoutRef Name="Basic Layout"/>
+		</AppenderBinding>
+	</AppenderBindings>
+</Log4XConfig>

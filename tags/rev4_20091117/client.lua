@@ -1,0 +1,3 @@
+require "uppuRacingClientApp"
+
+gameapp = uppuRacingClientApp()

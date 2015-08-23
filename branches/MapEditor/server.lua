@@ -1,0 +1,3 @@
+require "MapEditorServerApp"
+
+gameapp = MapEditorServerApp()

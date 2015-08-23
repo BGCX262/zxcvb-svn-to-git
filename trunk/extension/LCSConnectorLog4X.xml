@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Log4XConfig xmlns="http://www.nhncorp.com/xgp/Log4XConfig.xsd">
+  <Log4X ServiceName="LCSConnector"/>
+
+  <!-- Logger information -->
+  <Loggers>
+    <Logger Name="Default" LogLevel="All"/>
+  </Loggers>
+
+  <!-- Appender information -->
+  <Appenders>
+    <Appender Name="Default FileAppender" Type="Log4XBasic.DailyRollingFileAppender">
+      <AppenderParameter Name="LoggingDirectory" Value=".\Logs\LCS"/>
+      <AppenderParameter Name="Schedule" Value="Hourly"/>
+      <AppenderParameter Name="FileNamePrefix" Value="LCS_"/>
+      <AppenderParameter Name="FileNamePostfix" Value=".log" />
+      <AppenderParameter Name="ImmediateFlush" Value="true" />
+      <AppenderParameter Name="Append" Value="true" />
+    </Appender>
+    <Appender Name="Console Appender" Type="Log4XBasic.ConsoleAppender"/>
+  </Appenders>
+
+
+  <!-- Layout information -->
+  <Layouts>
+    <Layout Name="Simple Layout" Type="Log4XBasic.SimpleLayout"/>
+    <Layout Name="Basic Layout" Type="Log4XBasic.BasicLayout"/>
+  </Layouts>
+
+  <!-- Logger binding information -->
+  <LoggerBindings>
+    <LoggerBinding LoggerRef="Default">
+      <AppenderRef Name="Default FileAppender"/>
+      <AppenderRef Name="Console Appender"/>
+    </LoggerBinding>
+  </LoggerBindings>
+
+  <!-- Appender binding information -->
+  <AppenderBindings>
+    <AppenderBinding AppenderRef="Default FileAppender">
+      <LayoutRef Name="Simple Layout"/>
+    </AppenderBinding>
+    <AppenderBinding AppenderRef="Console Appender">
+      <LayoutRef Name="Simple Layout"/>
+    </AppenderBinding>
+  </AppenderBindings>
+</Log4XConfig>

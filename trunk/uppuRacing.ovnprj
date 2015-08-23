@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GOProject GameOVEN_Version="1.8.0">
+    <GameInfo>
+        <ClientWindow Width="800" Height="600" TitleBar="1" />
+        <MaxUser Value="4" />
+        <Fps Value="60" />
+        <Platform Name="idogame" />
+        <GameType Value="1" />
+        <NetworkType Value="UDP" />
+        <LobbyType Value="0" Version="" />
+        <GameMode Value="0" />
+        <GameName Name="uppu_racing" />
+        <thirdPartyGame Value="0" />
+    </GameInfo>
+    <RankInfo />
+    <List Name="uppuRacing">
+        <Filter Name="Source Files">
+            <Filter Name="Animation">
+                <Script Name="uppuRacingAnimationBooster.lua" Path="uppuRacingAnimationBooster.lua" />
+                <Script Name="uppuRacingAnimationCarJump.lua" Path="uppuRacingAnimationCarJump.lua" />
+            </Filter>
+            <Filter Name="Map">
+                <Script Name="uppuRacingTestMap.lua" Path="uppuRacingTestMap.lua" />
+                <Script Name="uppuRacingMap.lua" Path="uppuRacingMap.lua" />
+                <Script Name="uppuRacingSnowMap.lua" Path="uppuRacingSnowMap.lua" />
+                <Script Name="uppuRacingWaterMap.lua" Path="uppuRacingWaterMap.lua" />
+            </Filter>
+            <Filter Name="Object">
+                <Script Name="uppuRacingObject.lua" Path="uppuRacingObject.lua" />
+                <Script Name="uppuRacingPenguinBlockObject.lua" Path="uppuRacingPenguinBlockObject.lua" />
+                <Script Name="uppuRacingCarObject.lua" Path="uppuRacingCarObject.lua" />
+                <Script Name="uppuRacingSlaveCarObject.lua" Path="uppuRacingSlaveCarObject.lua" />
+                <Script Name="uppuRacingHighBlockObject.lua" Path="uppuRacingHighBlockObject.lua" />
+                <Script Name="uppuRacingTileObject.lua" Path="uppuRacingTileObject.lua" />
+                <Script Name="uppuRacingMissileObject.lua" Path="uppuRacingMissileObject.lua" />
+                <Script Name="uppuRacingSlaveMissileObject.lua" Path="uppuRacingSlaveMissileObject.lua" />
+                <Script Name="uppuRacingTrapObject.lua" Path="uppuRacingTrapObject.lua" />
+                <Script Name="uppuRacingBombBoxObject.lua" Path="uppuRacingBombBoxObject.lua" />
+                <Script Name="uppuRacingIceTileObject.lua" Path="uppuRacingIceTileObject.lua" />
+                <Script Name="uppuRacingLowBlockObject.lua" Path="uppuRacingLowBlockObject.lua" />
+            </Filter>
+            <Filter Name="WaitingRoom">
+                <Script Name="Scene_WaitingRoomUIObject.lua" Path="Scene_WaitingRoomUIObject.lua" />
+                <Script Name="RoomState.lua" Path="RoomState.lua" />
+                <Script Name="UserState.lua" Path="UserState.lua" />
+                <Script Name="GameState.lua" Path="GameState.lua" />
+                <Script Name="Scene_WaitingRoom.lua" Path="Scene_WaitingRoom.lua" />
+                <Layout Name="Scene_WaitingRoom" />
+            </Filter>
+            <Script Name="server.lua" Path="server.lua" />
+            <Script Name="client.lua" Path="client.lua" />
+            <Script Name="uppuRacingScene.lua" Path="uppuRacingScene.lua" />
+            <Script Name="uppuRacingProtocol.lua" Path="uppuRacingProtocol.lua" />
+            <Script Name="uppuRacingGameServer.lua" Path="uppuRacingGameServer.lua" />
+            <Script Name="uppuRacingGameClient.lua" Path="uppuRacingGameClient.lua" />
+            <Script Name="uppuRacingSoundObject.lua" Path="uppuRacingSoundObject.lua" />
+            <Script Name="uppuRacingSceneUIObject.lua" Path="uppuRacingSceneUIObject.lua" />
+            <Script Name="uppuRacingConsts.lua" Path="uppuRacingConsts.lua" />
+            <Script Name="uppuRacingContactFilter.lua" Path="uppuRacingContactFilter.lua" />
+            <Script Name="uppuRacingKeyInput.lua" Path="uppuRacingKeyInput.lua" />
+            <Script Name="uppuRacingGameData.lua" Path="uppuRacingGameData.lua" />
+            <Layout Name="Scene1" />
+        </Filter>
+        <Filter Name="Resource Files">
+            <Filter Name="Image Files" />
+            <Filter Name="Sound Files" />
+        </Filter>
+        <Filter Name="Lobby Files">
+            <Layout Name="iDoLobby_LobbyMainScene" />
+            <Layout Name="iDoLobby_GameIntroScene" />
+            <Layout Name="iDoLobby_PopupScene" />
+            <Layout Name="iDoLobby_GameGuideScene01" />
+            <Script Name="iDoLobby_GameIntro.lua" Path="iDoLobby_GameIntro.lua" />
+            <Script Name="iDoLobby_LobbyClient.lua" Path="iDoLobby_LobbyClient.lua" />
+            <Script Name="iDoLobby_GameIntroScene.lua" Path="iDoLobby_GameIntroScene.lua" />
+            <Script Name="iDoLobby_LobbyMainScene.lua" Path="iDoLobby_LobbyMainScene.lua" />
+            <Script Name="iDoLobby_GameIntroSceneUIObject.lua" Path="iDoLobby_GameIntroSceneUIObject.lua" />
+            <Script Name="iDoLobby_LobbyMainSceneUIObject.lua" Path="iDoLobby_LobbyMainSceneUIObject.lua" />
+            <Script Name="iDoLobby_GameGuideScene01.lua" Path="iDoLobby_GameGuideScene01.lua" />
+            <Script Name="iDoLobby_PopupScene.lua" Path="iDoLobby_PopupScene.lua" />
+            <Script Name="iDoLobby_PopupMultiEventHandler.lua" Path="iDoLobby_PopupMultiEventHandler.lua" />
+            <Script Name="iDoLobby_CreateRoomDialog.lua" Path="iDoLobby_CreateRoomDialog.lua" />
+            <Script Name="iDoLobby_AccuseDialog.lua" Path="iDoLobby_AccuseDialog.lua" />
+            <Script Name="iDoLobby_AccuseResultDialog.lua" Path="iDoLobby_AccuseResultDialog.lua" />
+            <Script Name="iDoLobby_InviteAcceptDialog.lua" Path="iDoLobby_InviteAcceptDialog.lua" />
+            <Script Name="iDoLobby_InviteDialog.lua" Path="iDoLobby_InviteDialog.lua" />
+            <Script Name="iDoLobby_MessageBoxDialog.lua" Path="iDoLobby_MessageBoxDialog.lua" />
+            <Script Name="iDoLobby_PasswordDialog.lua" Path="iDoLobby_PasswordDialog.lua" />
+            <Script Name="iDoLobby_RankingDialog.lua" Path="iDoLobby_RankingDialog.lua" />
+            <Script Name="iDoLobby_Settings.lua" Path="iDoLobby_Settings.lua" />
+            <Script Name="iDoLobby_PopupSceneUIObject.lua" Path="iDoLobby_PopupSceneUIObject.lua" />
+            <Script Name="iDoLobby_GameGuideScene01UIObject.lua" Path="iDoLobby_GameGuideScene01UIObject.lua" />
+        </Filter>
+        <Filter Name="Lobby Files" />
+    </List>
+</GOProject>

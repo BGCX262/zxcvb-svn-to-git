@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Resource title="untitled" author="GameOVEN">
+    <CursorList />
+    <SceneList>
+        <ObjectColor>
+            <Type name="Scene" color="FF000000" />
+            <Type name="StaticImage" color="FFD2B48C" />
+            <Type name="Text" color="FFDDA0DD" />
+            <Type name="ImageNumber" color="FFDD0000" />
+            <Type name="Group" color="FFFFFF00" />
+            <Type name="Image" color="FFE9967A" />
+            <Type name="Button" color="FFF08080" />
+            <Type name="CheckBox" color="FFCD5C5C" />
+            <Type name="RadioButton" color="FFFFA07A" />
+            <Type name="Edit" color="FFDB7093" />
+            <Type name="ListView" color="FFF4A460" />
+            <Type name="TextList" color="FFF40060" />
+            <Type name="HorzScrollBar" color="FFFA8072" />
+            <Type name="VertScrollBar" color="FFFA8072" />
+            <Type name="HorzProgressBar" color="FFFF6347" />
+            <Type name="VertProgressBar" color="FFFF6347" />
+            <Type name="HorzSlideBar" color="FFAF2307" />
+            <Type name="VertSlideBar" color="FFAF2307" />
+            <Type name="ComboBox" color="FFFF4500" />
+            <Type name="WebImage" color="FF7B68EE" />
+            <Type name="Hgs" color="FFF0E68C" />
+            <Type name="Hsv" color="FFCD853F" />
+            <Type name="Hef" color="FF10AO30" />
+        </ObjectColor>
+        <Scene id="1" name="Scene1" cursor="-1" classname="uppuRacingScene">
+            <Object type="Text" id="2" name="carpos" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="3.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="3" name="rtt1" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="27.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="4" name="rtt2" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="51.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="20" name="NowLoading" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="119.000000" y="167.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.600000" g="0.800000" b="0.000000" a="1.000000" />
+                <Font face="Cooper Black" bold="false" height="70.000000" />
+                <Text string="Now Loading..." align="Left" />
+            </Object>
+            <Object type="Text" id="21" name="trafficSent" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="849.000000" y="3.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.000000" b="0.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="22" name="rtt3" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="74.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="23" name="rtt4" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="813.000000" y="97.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="24" name="rankNumber" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="806.000000" y="118.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="162" height="32" />
+                <Image name="images\ido_up_tx_005.bmp" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="FF4AA9EB" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="25" name="passlog" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="850.000000" y="26.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="1.000000" a="1.000000" />
+                <Font face="굴림" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+        </Scene>
+        <Scene id="5" name="Scene_WaitingRoom" cursor="-1" classname="Scene_WaitingRoom">
+            <Object type="StaticImage" id="6" name="__BACKGROUND" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Image name="images\bg_WaitingRoom.PNG" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Button" id="13" name="btnReady" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="20.000000" y="624.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="90" height="43" />
+                <Event enabled="true" />
+                <Image name="images\btnReady.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="FFFFFFFF" />
+            </Object>
+            <Object type="Button" id="14" name="btnExit" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="698.000000" y="564.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="86" height="25" />
+                <Event enabled="true" />
+                <Image name="images\ido_up_ui_013.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="Button" id="18" name="btnNext" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="129.000000" y="628.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="54" height="18" />
+                <Event enabled="true" />
+                <Image name="images\ido_up_ui_024.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="Button" id="19" name="btnPrev" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="129.000000" y="650.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="54" height="18" />
+                <Event enabled="true" />
+                <Image name="images\ido_up_ui_026.bmp" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+        </Scene>
+    </SceneList>
+    <SoundList>
+        <Sound type="Sound2D" id="10002" filename="sounds\815_1242134321648_enterPlayer.ogg" name="sndEnterPlayer" />
+        <Sound type="Sound2D" id="10003" filename="sounds\815_1242134352237_leavePlayer.ogg" name="sndLeavePlayer" />
+        <Sound type="Sound2D" id="10004" filename="sounds\815_1242134338048_enterRoom.ogg" name="sndEnterRoom" />
+        <Sound type="Stream2D" id="10005" filename="sounds\815_1242136202554_waitingRoom.ogg" name="sndWaitingRoom" />
+        <Sound type="Stream2D" id="10006" filename="sounds\815_1242136483286_playing.ogg" name="sndPlaying" />
+        <Sound type="Sound2D" id="10007" filename="sounds\815_1242119577479_youWin.ogg" name="sndYouWin" />
+        <Sound type="Sound2D" id="10008" filename="sounds\815_1242117072535_finished.ogg" name="sndFinished" />
+    </SoundList>
+    <StringList />
+</Resource>

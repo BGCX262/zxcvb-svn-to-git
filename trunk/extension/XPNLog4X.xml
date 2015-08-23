@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Log4XConfig xmlns="http://www.nhncorp.com/xgp/Log4XConfig.xsd">
+  <Log4X ServiceName="XPN" />
+
+  <Loggers>
+    <Logger Name="XPN" LogLevel="Error" />
+    <Logger Name="XPNDebug" LogLevel="OFF" />
+  </Loggers>
+
+  <Appenders>
+    <Appender Name="Daily Appender" Type="Log4XBasic.DailyRollingFileAppender">
+      <AppenderParameter Name="LoggingDirectory" Value="logs" />
+      <AppenderParameter Name="Schedule" Value="Hourly" />
+      <AppenderParameter Name="FileNamePrefix" Value="xpn" />
+      <AppenderParameter Name="FileNamePostfix" Value=".log" />
+      <AppenderParameter Name="ImmediateFlush" Value="true" />
+      <AppenderParameter Name="Append" Value="true" />
+    </Appender>
+    <Appender Name="Console Appender" Type="Log4XBasic.ConsoleAppender"/>
+    <!--<Appender Name="Pixel Appender" Type="XPNLog4XPlugin.PixelAppender"/>-->
+    <Appender Name="DebugView Appender" Type="XPNLog4XPlugin.DebugViewAppender"/>
+  </Appenders>
+
+
+  <Layouts>
+    <Layout Name="Basic Layout" Type="Log4XBasic.BasicLayout"/>
+  </Layouts>
+
+
+  <LoggerBindings>
+    <LoggerBinding LoggerRef="XPN">
+      <AppenderRef Name="Daily Appender" />
+      <AppenderRef Name="Console Appender" />
+      <!-- remove comment bracket to turn on PiXel trace log
+      <AppenderRef Name="Pixel Appender" />-->
+    </LoggerBinding>
+    <LoggerBinding LoggerRef="XPNDebug">
+      <AppenderRef Name="DebugView Appender" />
+    </LoggerBinding>
+  </LoggerBindings>
+
+
+  <AppenderBindings>
+    <AppenderBinding AppenderRef="Daily Appender">
+      <LayoutRef Name="Basic Layout" />
+    </AppenderBinding>
+    <AppenderBinding AppenderRef="Console Appender">
+      <LayoutRef Name="Basic Layout"/>
+    </AppenderBinding>
+    <AppenderBinding AppenderRef="DebugView Appender">
+      <LayoutRef Name="Basic Layout"/>
+    </AppenderBinding>
+  </AppenderBindings>
+</Log4XConfig>

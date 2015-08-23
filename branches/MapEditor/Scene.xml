@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Resource title="untitled" author="GameOVEN">
+    <CursorList />
+    <SceneList>
+        <ObjectColor>
+            <Type name="Scene" color="FF000000" />
+            <Type name="StaticImage" color="FFD2B48C" />
+            <Type name="Text" color="FFDDA0DD" />
+            <Type name="ImageNumber" color="FFDD0000" />
+            <Type name="Group" color="FFFFFF00" />
+            <Type name="Image" color="FFE9967A" />
+            <Type name="Button" color="FFF08080" />
+            <Type name="CheckBox" color="FFCD5C5C" />
+            <Type name="RadioButton" color="FFFFA07A" />
+            <Type name="Edit" color="FFDB7093" />
+            <Type name="ListView" color="FFF4A460" />
+            <Type name="TextList" color="FFF40060" />
+            <Type name="HorzScrollBar" color="FFFA8072" />
+            <Type name="VertScrollBar" color="FFFA8072" />
+            <Type name="HorzProgressBar" color="FFFF6347" />
+            <Type name="VertProgressBar" color="FFFF6347" />
+            <Type name="HorzSlideBar" color="FFAF2307" />
+            <Type name="VertSlideBar" color="FFAF2307" />
+            <Type name="ComboBox" color="FFFF4500" />
+            <Type name="WebImage" color="FF7B68EE" />
+            <Type name="Hgs" color="FFF0E68C" />
+            <Type name="Hsv" color="FFCD853F" />
+            <Type name="Hef" color="FF10AO30" />
+        </ObjectColor>
+        <Scene id="1" name="Scene1" cursor="-1" classname="MapEditorScene">
+            <Object type="StaticImage" id="2" name="__BACKGROUND" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="1024" height="768" />
+                <Image name="images\background.PNG" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Button" id="3" name="btnSelect" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="43.000000" y="1500.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="24" height="23" />
+                <Event enabled="true" />
+                <Image name="images\btnSelect.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="StaticImage" id="4" name="imageSelected" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="88.000000" y="1500.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="30" height="30" />
+                <Image name="images\imgSelected.PNG" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="FFFFFFFF" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Group" id="20" name="groupSave" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="-224.000000" y="2.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Edit" id="19" name="editSave" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="0.000000" y="11.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="89" height="20" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="89" bottom="20" />
+                    <Property maxlength="1024" mask="false" masksymbol="42" />
+                </Object>
+                <Object type="Button" id="15" name="btnSave" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="103.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="91" height="31" />
+                    <Event enabled="true" />
+                    <Image name="images\btnSave.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+                </Object>
+            </Object>
+            <Object type="Group" id="18" name="groupLoad" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="656.000000" y="1500.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Edit" id="17" name="editLoad" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="0.000000" y="11.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="89" height="20" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="89" bottom="20" />
+                    <Property maxlength="1024" mask="false" masksymbol="42" />
+                </Object>
+                <Object type="Button" id="16" name="btnLoad" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="102.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="91" height="31" />
+                    <Event enabled="true" />
+                    <Image name="images\btnLoad.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+                </Object>
+            </Object>
+            <Object type="Group" id="13" name="groupNew" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="177.000000" y="1500.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Edit" id="8" name="editSizeX" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="30.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="89" height="20" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="89" bottom="20" />
+                    <Property maxlength="1024" mask="false" masksymbol="42" />
+                </Object>
+                <Object type="Edit" id="9" name="editSizeY" show="true" defaultshow="true" stretch="true" lock="false">
+                    <Position x="30.000000" y="30.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="89" height="20" />
+                    <Event enabled="true" />
+                    <Image name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Caret name="" left="0" top="0" right="0" bottom="0" nullimage="false" colorkey="0" />
+                    <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" language="0" />
+                    <Font face="MS Mincho" bold="false" height="12.000000" language="1" />
+                    <Font face="SimSun" bold="false" height="12.000000" language="2" />
+                    <Font face="SimHei" bold="false" height="12.000000" language="3" />
+                    <Font face="Arial" bold="false" height="12.000000" language="4" />
+                    <ClientRect left="0" top="0" right="89" bottom="20" />
+                    <Property maxlength="1024" mask="false" masksymbol="42" />
+                </Object>
+                <Object type="Text" id="10" name="textSizeX" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.031373" g="0.031373" b="0.031373" a="1.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" />
+                    <Text string="X:" align="Left" />
+                </Object>
+                <Object type="Text" id="11" name="textSizeY" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="29.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.031373" g="0.031373" b="0.031373" a="1.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" />
+                    <Text string="Y:" align="Left" />
+                </Object>
+                <Object type="Button" id="12" name="btnNew" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="132.000000" y="19.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="91" height="31" />
+                    <Event enabled="true" />
+                    <Image name="images\btnNew.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+                </Object>
+            </Object>
+            <Object type="Group" id="14" name="groupState" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="50.000000" y="80.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="Text" id="5" name="textCurrentImage" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.031373" g="0.031373" b="0.031373" a="1.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" />
+                    <Text string="Text" align="Left" />
+                </Object>
+                <Object type="Text" id="6" name="textCurrentIndex" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="30.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.031373" g="0.031373" b="0.031373" a="1.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" />
+                    <Text string="Text" align="Left" />
+                </Object>
+                <Object type="Text" id="7" name="textCurrentType" show="true" defaultshow="true" stretch="false" lock="false">
+                    <Position x="0.000000" y="60.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Color r="0.031373" g="0.031373" b="0.031373" a="1.000000" />
+                    <Font face="Consolas" bold="false" height="20.000000" />
+                    <Text string="Tile" align="Left" />
+                </Object>
+            </Object>
+            <Object type="Button" id="21" name="btnPrint" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="882.000000" y="1500.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="91" height="31" />
+                <Event enabled="false" />
+                <Image name="images\btnPrint.PNG" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+        </Scene>
+    </SceneList>
+    <SoundList />
+    <StringList />
+</Resource>
